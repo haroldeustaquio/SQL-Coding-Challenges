@@ -1,34 +1,21 @@
--- https://en.wikibooks.org/wiki/SQL_Exercises/Pieces_and_providers
-
 CREATE TABLE Pieces (
- Code INTEGER PRIMARY KEY NOT NULL,
- Name TEXT NOT NULL
- );
+  Code INTEGER PRIMARY KEY NOT NULL,
+  Name TEXT NOT NULL
+);
 CREATE TABLE Providers (
- Code VARCHAR(40) 
- PRIMARY KEY NOT NULL,  
- Name TEXT NOT NULL 
- );
-CREATE TABLE Provides (
- Piece INTEGER, 
- FOREIGN KEY (Piece) REFERENCES Pieces(Code),
- Provider VARCHAR(40), 
- FOREIGN KEY (Provider) REFERENCES Providers(Code),  
- Price INTEGER NOT NULL,
- PRIMARY KEY(Piece, Provider) 
- );
- 
--- alternative one for SQLite
-  /* 
- CREATE TABLE Provides (
- Piece INTEGER,
- Provider VARCHAR(40),  
- Price INTEGER NOT NULL,
- PRIMARY KEY(Piece, Provider) 
- );
- */
- 
- 
+  Code VARCHAR(40) 
+  PRIMARY KEY NOT NULL,  
+  Name TEXT NOT NULL 
+);
+  CREATE TABLE Provides (
+  Piece INTEGER, 
+  FOREIGN KEY (Piece) REFERENCES Pieces(Code),
+  Provider VARCHAR(40), 
+  FOREIGN KEY (Provider) REFERENCES Providers(Code),  
+  Price INTEGER NOT NULL,
+  PRIMARY KEY(Piece, Provider) 
+);
+
 INSERT INTO Providers(Code, Name) VALUES('HAL','Clarke Enterprises');
 INSERT INTO Providers(Code, Name) VALUES('RBT','Susan Calvin Corp.');
 INSERT INTO Providers(Code, Name) VALUES('TNBC','Skellington Supplies');
