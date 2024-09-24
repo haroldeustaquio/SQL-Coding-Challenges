@@ -1,18 +1,16 @@
--- https://en.wikibooks.org/wiki/SQL_Exercises/Planet_Express
-
 CREATE TABLE Employee (
   EmployeeID INTEGER PRIMARY KEY,
   Name VARCHAR(255) NOT NULL,
   Position VARCHAR(255) NOT NULL,
   Salary REAL NOT NULL,
   Remarks VARCHAR(255)
-) ENGINE = InnoDB; 
+); 
 
 CREATE TABLE Planet (
   PlanetID INTEGER PRIMARY KEY,
   Name VARCHAR(255) NOT NULL,
   Coordinates REAL NOT NULL
-) ENGINE = InnoDB; 
+); 
 
 CREATE TABLE Shipment (
   ShipmentID INTEGER PRIMARY KEY,
@@ -21,7 +19,7 @@ CREATE TABLE Shipment (
   Planet INTEGER NOT NULL,
   FOREIGN KEY (Manager) REFERENCES Employee(EmployeeID),
   FOREIGN KEY (Planet) REFERENCES Planet(PlanetID)
-) ENGINE = InnoDB;
+);
 
 CREATE TABLE Has_Clearance (
   Employee INTEGER NOT NULL,
@@ -30,12 +28,12 @@ CREATE TABLE Has_Clearance (
   PRIMARY KEY(Employee, Planet),
   FOREIGN KEY (Employee) REFERENCES Employee(EmployeeID),
   FOREIGN KEY (Planet) REFERENCES Planet(PlanetID)
-) ENGINE = InnoDB; 
+); 
 
 CREATE TABLE Client (
   AccountNumber INTEGER PRIMARY KEY,
   Name VARCHAR(255) NOT NULL
-) ENGINE = InnoDB;
+);
   
 CREATE TABLE Package (
   Shipment INTEGER NOT NULL,
@@ -48,11 +46,11 @@ CREATE TABLE Package (
   FOREIGN KEY (Shipment) REFERENCES Shipment(ShipmentID),
   FOREIGN KEY (Sender) REFERENCES Client(AccountNumber),
   FOREIGN KEY (Recipient) REFERENCES Client(AccountNumber)
-) ENGINE = InnoDB;
+);
 
 
 INSERT INTO Client VALUES(1, 'Zapp Brannigan');
-INSERT INTO Client VALUES(2, "Al Gore's Head");
+INSERT INTO Client VALUES(2, 'Al Gores Head');
 INSERT INTO Client VALUES(3, 'Barbados Slim');
 INSERT INTO Client VALUES(4, 'Ogden Wernstrom');
 INSERT INTO Client VALUES(5, 'Leo Wong');
