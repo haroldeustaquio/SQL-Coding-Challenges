@@ -26,7 +26,7 @@ DROP TABLE IF EXISTS Affiliated_With;
 CREATE TABLE Affiliated_With (
   Physician INTEGER NOT NULL,
   Department INTEGER NOT NULL,
-  PrimaryAffiliation BOOLEAN NOT NULL,
+  PrimaryAffiliation INTEGER NOT NULL,
   CONSTRAINT fk_Affiliated_With_Physician_EmployeeID FOREIGN KEY(Physician) REFERENCES Physician(EmployeeID),
   CONSTRAINT fk_Affiliated_With_Department_DepartmentID FOREIGN KEY(Department) REFERENCES Department(DepartmentID),
   PRIMARY KEY(Physician, Department)
@@ -66,7 +66,7 @@ CREATE TABLE Nurse (
   EmployeeID INTEGER PRIMARY KEY NOT NULL,
   Name VARCHAR(30) NOT NULL,
   Position VARCHAR(30) NOT NULL,
-  Registered BOOLEAN NOT NULL,
+  Registered INTEGER NOT NULL,
   SSN INTEGER NOT NULL
 );
 
@@ -76,8 +76,8 @@ CREATE TABLE Appointment (
   Patient INTEGER NOT NULL,    
   PrepNurse INTEGER,
   Physician INTEGER NOT NULL,
-  Start DATETIME NOT NULL,
-  End DATETIME NOT NULL,
+  [Start] DATETIME NOT NULL,
+  [End] DATETIME NOT NULL,
   ExaminationRoom TEXT NOT NULL,
   CONSTRAINT fk_Appointment_Patient_SSN FOREIGN KEY(Patient) REFERENCES Patient(SSN),
   CONSTRAINT fk_Appointment_Nurse_EmployeeID FOREIGN KEY(PrepNurse) REFERENCES Nurse(EmployeeID),
@@ -121,7 +121,7 @@ CREATE TABLE Room (
   RoomType VARCHAR(30) NOT NULL,
   BlockFloor INTEGER NOT NULL,  
   BlockCode INTEGER NOT NULL,  
-  Unavailable BOOLEAN NOT NULL,
+  Unavailable Integer NOT NULL,
   CONSTRAINT fk_Room_Block_PK FOREIGN KEY(BlockFloor, BlockCode) REFERENCES Block(BlockFloor, BlockCode)
 );
 
