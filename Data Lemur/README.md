@@ -1,0 +1,81 @@
+# Data Lemur SQL Challenges
+
+This folder contains my SQL solutions to various problems from **Data Lemur**, categorized by difficulty levels: Easy, Medium, and Hard. The purpose of these challenges is to practice and enhance my SQL skills through real-world problem scenarios.
+
+## Structure
+
+- **Easy**: Beginner-friendly problems designed to build a solid foundation in SQL concepts.
+- **Medium**: Intermediate problems that involve more complex queries and require a deeper understanding of SQL functions.
+- **Hard**: Advanced problems that test the ability to handle challenging SQL tasks.
+
+---
+
+## Easy Level Problems
+
+<div>
+
+| Problem Name                                           | Solution                                                                                                                                    |
+|--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| App Click-through Rate (CTR)                           | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/App%20Click-through%20Rate%20(CTR).sql)          |
+| Average Post Hiatus (Part 1)                           | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Average%20Post%20Hiatus%20(Part%201).sql)        |
+| Average Review Ratings                                 | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Average%20Review%20Ratings.sql)                  |
+| Cards Issued Difference                                | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Cards%20Issued%20Difference.sql)                 |
+| Cities With Completed Trades                           | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Cities%20With%20Completed%20Trades.sql)          |
+| Compressed Mean                                        | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Compressed%20Mean.sql)                           |
+| Data Science Skills                                    | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Data%20Science%20Skills.sql)                     |
+| Duplicate Job Listings                                 | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Duplicate%20Job%20Listings.sql)                  |
+| Histogram of Tweets                                    | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Histogram%20of%20Tweets.sql)                     |
+| IBM db2 Product Analytics                              | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/IBM%20db2%20Product%20Analytics.sql)   |
+| Laptop vs. Mobile Viewership                           | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Laptop%20vs.%20Mobile%20Viewership.sql)          |
+| Page With No Likes                                     | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Page%20With%20No%20Likes.sql)                    |
+| Patient Support Analysis (Part 1)                      | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Patient%20Support%20Analysis%20(Part%201).sql)   |
+| Pharmacy Analytics (Part 1)                            | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Pharmacy%20Analytics%20(Part%201).sql)           |
+| Pharmacy Analytics (Part 2)                            | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Pharmacy%20Analytics%20(Part%202).sql)           |
+| Pharmacy Analytics (Part 3)                            | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Pharmacy%20Analytics%20(Part%203).sql)           |
+| Second Day Confirmation                                | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Second%20Day%20Confirmation.sql)                 |
+| Teams Power Users                                      | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Teams%20Power%20Users.sql)                       |
+| Unfinished Parts                                       | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Unfinished%20Parts.sql)                          |
+| Well Paid Employees                                    | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Well%20Paid%20Employees.sql)                     |
+| Who Made Quota                                         | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Easy/Who%20Made%20Quota.sql)                          |
+</div>
+
+---
+
+## Medium Level Problems
+
+<div>
+
+| Problem Name                                           | Solution                                                                                                                                    |
+|--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| Card Launch Success                                    | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Card%20Launch%20Success.sql)                   |
+| Compressed Mode                                        | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Compressed%20Mode.sql)                        |
+| FAANG Stock Min-Max (Part 1)                           | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/FAANG%20Stock%20Min-Max%20(Part%201).sql)      |
+| Highest-Grossing Items                                 | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Highest-Grossing%20Items.sql)                  |
+| Histogram of Users and Purchases                       | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Histogram%20of%20Users%20and%20Purchases.sql)  |
+| International Call Percentage                          | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/International%20Call%20Percentage.sql)         |
+| Odd and Even Measurements                              | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Odd%20and%20Even%20Measurements.sql)           |
+| Patient Support Analysis (Part 2)                      | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Patient%20Support%20Analysis%20(Part%202).sql) |
+| Second Highest Salary                                  | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Second%20Highest%20Salary.sql)                 |
+| Sending vs. Opening Snaps                              | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Sending%20vs.%20Opening%20Snaps.sql)           |
+| Signup Activation Rate                                 | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Signup%20Activation%20Rate.sql)                |
+| Supercloud Customer                                    | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Supercloud%20Customer.sql)                     |
+| Swapped Food Delivery                                  | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Swapped%20Food%20Delivery.sql)                 |
+| Top 5 Artists                                          | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Top%205%20Artists.sql)                         |
+| Top Three Salaries                                     | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Top%20Three%20Salaries.sql)                    |
+| Tweets' Rolling Averages                               | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/Tweets'%20Rolling%20Averages.sql)              |
+| User's Third Transaction                               | [Solution](https://github.com/haroldeustaquio/SQL-Coding-Challenges/blob/main/Data%20Lemur/Medium/User's%20Third%20Transaction.sql)              |
+
+
+</div>
+
+---
+
+## Hard Level Problems
+
+*Coming soon...*
+
+---
+
+## Contributions
+
+Contributions are always welcome! Feel free to open an issue or submit a pull request if you have suggestions or improvements.
