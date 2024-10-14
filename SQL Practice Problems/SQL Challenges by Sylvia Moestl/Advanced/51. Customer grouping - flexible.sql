@@ -32,5 +32,3 @@ from
 	group by c.CustomerID,c.CompanyName) as a
 group by a.CustomerGroup
 order by TotalInGroup desc
-
-
