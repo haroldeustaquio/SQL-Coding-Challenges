@@ -1,4 +1,3 @@
-
 select 
 	a.CustomerGroup, 
 	count(*) as TotalInGroup,
