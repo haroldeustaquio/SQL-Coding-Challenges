@@ -13,6 +13,7 @@ CREATE TABLE Boxes (
    FOREIGN KEY (Warehouse) REFERENCES Warehouses(Code)
 );
 
+
 INSERT INTO Warehouses(Code,Location,Capacity) VALUES(1,'Chicago',3);
 INSERT INTO Warehouses(Code,Location,Capacity) VALUES(2,'Chicago',4);
 INSERT INTO Warehouses(Code,Location,Capacity) VALUES(3,'New York',7);

@@ -6,6 +6,8 @@
 
 -- 7.2 What is the total weight of all the packages that he sent?
 
+
 	select sender, sum(weight) from package
 	group by sender
 	having sender = 2
+

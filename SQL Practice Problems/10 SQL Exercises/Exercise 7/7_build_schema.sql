@@ -12,6 +12,7 @@ CREATE TABLE Planet (
   Coordinates REAL NOT NULL
 ); 
 
+
 CREATE TABLE Shipment (
   ShipmentID INTEGER PRIMARY KEY,
   Date DATE,

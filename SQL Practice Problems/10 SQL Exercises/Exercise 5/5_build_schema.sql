@@ -16,6 +16,7 @@ CREATE TABLE Providers (
   PRIMARY KEY(Piece, Provider) 
 );
 
+
 INSERT INTO Providers(Code, Name) VALUES('HAL','Clarke Enterprises');
 INSERT INTO Providers(Code, Name) VALUES('RBT','Susan Calvin Corp.');
 INSERT INTO Providers(Code, Name) VALUES('TNBC','Skellington Supplies');

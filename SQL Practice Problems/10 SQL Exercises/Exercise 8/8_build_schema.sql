@@ -12,7 +12,7 @@ CREATE TABLE Physician (
   CONSTRAINT pk_physician PRIMARY KEY(EmployeeID)
 ); 
 
-DROP TABLE IF EXISTS Department;
+DROP TABLE IF EXISTS Department; 
 CREATE TABLE Department (
   DepartmentID INTEGER NOT NULL,
   Name VARCHAR(30) NOT NULL,

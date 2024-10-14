@@ -9,6 +9,7 @@
 
 -- 1.3 Select the name of the products with a price less than or equal to $200.
 
+
 	select name from [dbo].[Products]
 	where price <= 200
 

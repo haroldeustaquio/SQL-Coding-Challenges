@@ -14,6 +14,7 @@
 
 	select * from movietheaters where movie is null
 
+
 -- 4.5 Select all data from all movie theaters 
     -- and, additionally, the data from the movie that is being shown in the theater (if one is being shown).
 

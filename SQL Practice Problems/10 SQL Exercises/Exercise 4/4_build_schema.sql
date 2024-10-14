@@ -11,6 +11,7 @@ CREATE TABLE MovieTheaters (
     FOREIGN KEY (Movie) REFERENCES Movies(Code)
 ) ENGINE=INNODB;
 
+
 INSERT INTO Movies(Code,Title,Rating) VALUES(1,'Citizen Kane','PG');
 INSERT INTO Movies(Code,Title,Rating) VALUES(2,'Singin'' in the Rain','G');
 INSERT INTO Movies(Code,Title,Rating) VALUES(3,'The Wizard of Oz','G');

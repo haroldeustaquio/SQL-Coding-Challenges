@@ -16,4 +16,3 @@
 	on a.code = b.project
 	where b.scientist is null
 
-

@@ -12,6 +12,7 @@ CREATE TABLE Employees (
   foreign key (department) references Departments(Code) 
 );
 
+
 INSERT INTO Departments(Code,Name,Budget) VALUES(14,'IT',65000);
 INSERT INTO Departments(Code,Name,Budget) VALUES(37,'Accounting',15000);
 INSERT INTO Departments(Code,Name,Budget) VALUES(59,'Human Resources',240000);
