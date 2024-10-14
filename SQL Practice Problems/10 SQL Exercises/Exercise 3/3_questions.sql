@@ -14,7 +14,6 @@
 
 	select avg(value) as promedio from boxes
 
-
 --3.5 Select the warehouse code and the average value of the boxes in each warehouse.
 
 	select code, avg(value) as promedio from boxes

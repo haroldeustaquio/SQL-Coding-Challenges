@@ -13,7 +13,6 @@
 
 -- 9.4 How many recordings are from China ("CN")?
 
-
 	select count(*) from [cran_logs_2015-01-01]
 	where _country_ = 'CN'
 

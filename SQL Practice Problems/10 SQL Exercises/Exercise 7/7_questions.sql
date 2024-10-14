@@ -10,4 +10,3 @@
 	select sender, sum(weight) from package
 	group by sender
 	having sender = 2
-

@@ -10,7 +10,6 @@
 -- 8.2 Same as the previous query, but include the following information in the results: Physician name, name of procedure, date when the procedure was carried out, name of the patient the procedure was carried out on.
 
 
-
 	select c.name,d.Name,a.DateUndergoes,e.name  from Undergoes as a
 	left join Trained_In as b
 	on a.Physician = b.Physician and a.Procedures=b.Treatment 

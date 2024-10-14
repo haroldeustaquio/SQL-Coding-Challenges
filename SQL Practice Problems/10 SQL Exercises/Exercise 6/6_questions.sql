@@ -15,4 +15,3 @@
 	left join assignedto as b
 	on a.code = b.project
 	where b.scientist is null
-

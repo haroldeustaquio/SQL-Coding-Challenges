@@ -14,7 +14,6 @@
 
 	select provider from provides where piece = 1
 
-
 -- 5.5 Select the name of pieces provided by provider with code "HAL".
 
 	select provides.piece, pieces.name from provides,pieces where provider = 'HAL' and provides.piece = pieces.code

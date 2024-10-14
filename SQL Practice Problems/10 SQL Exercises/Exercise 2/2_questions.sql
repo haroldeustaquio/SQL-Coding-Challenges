@@ -11,7 +11,6 @@
 	select * from employees
 	where lastname like '%smith'
 
-
 -- 2.4 Select all the data of employees whose last name is "Smith" or "Doe".
 	
 	select * from employees
