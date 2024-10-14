@@ -52,3 +52,4 @@ In the final assignment of the SQL course within the PEA Data Engineer program, 
      CROSS APPLY openjson(BulkColumn) AS r
      CROSS APPLY openjson(r.[value]) AS c
      ```
+
