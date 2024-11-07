@@ -1,4 +1,4 @@
-# SQL Problems Repository
+# 10 SQL Exercises
 
 This repository contains solutions to 10 SQL problems. Each problem includes its own `build_schema` and questions.
 
